@@ -2,34 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DevOps</title>
-    <link>devops.com.co/</link>
+    <link>https://devops.com.co/</link>
     <description>Recent content on DevOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>made with ❤ from Colombia &amp;copy;  Devops.com.co 2019</copyright>
-    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="devops.com.co/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devops.com.co/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Welcome to my website</title>
-      <link>devops.com.co/posts/helloworld/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <title>About Devops.com.co</title>
+      <link>https://devops.com.co/about/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>devops.com.co/posts/helloworld/</guid>
-      <description>This site is going to help me document things that I could forget and it will be my personal reference, The site is dedicated to sysadmin and devops first and foremost. You will also find a great deal of automation, CI/CD, containerization, coding, and etc.
-Hope you enjoy this blog post.</description>
+      <guid>https://devops.com.co/about/</guid>
+      <description>Hello Everybody 😎,
+My name is Hector Fabio Jimenez Saldarriaga you can call me h or Hector I&amp;rsquo;m from the beautiful🌠 country of Colombia 🌎, I&amp;rsquo;m Currently Infra Engineer at a local company and also student of Systems Engineering and Computer Science program at Universidad Tecnológica de Pereira. I do really enjoy Computer Systems and all related with electronics in general my main interests are Computer Security, Network Security, System Administration and DevOps, I usually use Unix,Gnu/Linux Enviroments (Currently trying to understand Windows Environments) and program in Python/Javascript languages.</description>
     </item>
     
     <item>
       <title>About Devops.com.co</title>
-      <link>devops.com.co/about/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      <link>https://devops.com.co/projects/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>devops.com.co/about/</guid>
-      <description>Hello Everybody 😎,
-My name is Hector Fabio Jimenez Saldarriaga you can call me h or Hector I&amp;rsquo;m from the beautiful🌠 country of Colombia 🌎, I&amp;rsquo;m Currently Infra Engineer at a local company and also student of Systems Engineering and Computer Science program at Universidad Tecnológica de Pereira. I do really enjoy Computer Systems and all related with electronics in general my main interests are Computer Security, Network Security, System Administration and DevOps, I usually use Unix,Gnu/Linux Enviroments (Currently trying to understand Windows Environments) and program in Python/Javascript languages.</description>
+      <guid>https://devops.com.co/projects/</guid>
+      <description>comming soon.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to my website</title>
+      <link>https://devops.com.co/posts/helloworld/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://devops.com.co/posts/helloworld/</guid>
+      <description>This site is going to help me document things that I could forget and it will be my personal reference, The site is dedicated to sysadmin and devops first and foremost. You will also find a great deal of automation, CI/CD, containerization, coding, and etc. My post are going to be written in english and spanish languages.
+Hope you enjoy this blog post.</description>
     </item>
     
   </channel>

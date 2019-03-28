@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncategorized on DevOps</title>
-    <link>devops.com.co/tags/uncategorized/</link>
+    <link>https://devops.com.co/tags/uncategorized/</link>
     <description>Recent content in Uncategorized on DevOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>made with ❤ from Colombia &amp;copy;  Devops.com.co 2019</copyright>
-    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="devops.com.co/tags/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devops.com.co/tags/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Welcome to my website</title>
-      <link>devops.com.co/posts/helloworld/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <link>https://devops.com.co/posts/helloworld/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>devops.com.co/posts/helloworld/</guid>
-      <description>This site is going to help me document things that I could forget and it will be my personal reference, The site is dedicated to sysadmin and devops first and foremost. You will also find a great deal of automation, CI/CD, containerization, coding, and etc.
+      <guid>https://devops.com.co/posts/helloworld/</guid>
+      <description>This site is going to help me document things that I could forget and it will be my personal reference, The site is dedicated to sysadmin and devops first and foremost. You will also find a great deal of automation, CI/CD, containerization, coding, and etc. My post are going to be written in english and spanish languages.
 Hope you enjoy this blog post.</description>
     </item>
     

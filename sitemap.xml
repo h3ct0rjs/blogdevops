@@ -3,59 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>devops.com.co/posts/helloworld/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://devops.com.co/about/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>devops.com.co/about/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <loc>https://devops.com.co/projects/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>devops.com.co/categories/</loc>
+    <loc>https://devops.com.co/posts/helloworld/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devops.com.co/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>devops.com.co/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://devops.com.co/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>devops.com.co/tags/hello/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://devops.com.co/tags/hello/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>devops.com.co/categories/hello/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://devops.com.co/categories/hello/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>devops.com.co/posts/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://devops.com.co/posts/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>devops.com.co/tags/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://devops.com.co/tags/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>devops.com.co/tags/uncategorized/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://devops.com.co/tags/uncategorized/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>devops.com.co/categories/uncategorized/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://devops.com.co/categories/uncategorized/</loc>
+    <lastmod>2019-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DevOps</title>
-    <link>devops.com.co/categories/</link>
+    <link>https://devops.com.co/categories/</link>
     <description>Recent content in Categories on DevOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>made with ❤ from Colombia &amp;copy;  Devops.com.co 2019</copyright>
     
-	<atom:link href="devops.com.co/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devops.com.co/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>devops.com.co/categories/hello/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <link>https://devops.com.co/categories/hello/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>devops.com.co/categories/hello/</guid>
+      <guid>https://devops.com.co/categories/hello/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uncategorized</title>
-      <link>devops.com.co/categories/uncategorized/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <link>https://devops.com.co/categories/uncategorized/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>devops.com.co/categories/uncategorized/</guid>
+      <guid>https://devops.com.co/categories/uncategorized/</guid>
       <description></description>
     </item>
     
