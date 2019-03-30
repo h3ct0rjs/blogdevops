@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on DevOps</title>
-    <link>https://devops.com.co/posts/</link>
-    <description>Recent content in Posts on DevOps</description>
+    <title>Coding on DevOps</title>
+    <link>https://devops.com.co/tags/coding/</link>
+    <description>Recent content in Coding on DevOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>made with ❤ from Colombia &amp;copy;  Devops.com.co 2019</copyright>
     <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://devops.com.co/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devops.com.co/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       
       <guid>https://devops.com.co/posts/sync-vscode-extensions/</guid>
       <description>It&amp;rsquo;s been a long time since my personal computer was reinstalled I just remember that it was 3 years ago when I was having problems with my LUKS configuration, sadly I was unable to solved it so I just reinstall all my operative system entirely. Now recently I just finish a clean Debian install, I was refreshing my Gnu/Linux Laptop and all the tools. the thing here is that I was looking to have the same visual studio code settings in my new install.</description>
-    </item>
-    
-    <item>
-      <title>Welcome to my website</title>
-      <link>https://devops.com.co/posts/helloworld/</link>
-      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://devops.com.co/posts/helloworld/</guid>
-      <description>This site is going to help me document things that I could forget and it will be my personal reference, The site is dedicated to sysadmin and devops first and foremost. You will also find a great deal of automation, CI/CD, containerization, coding, and etc. My post are going to be written in english and spanish languages.
-Hope you enjoy this blog post.</description>
     </item>
     
   </channel>

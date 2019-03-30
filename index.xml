@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>made with ❤ from Colombia &amp;copy;  Devops.com.co 2019</copyright>
-    <lastBuildDate>Sat, 23 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://devops.com.co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sync Vscode Extensions</title>
+      <link>https://devops.com.co/posts/sync-vscode-extensions/</link>
+      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://devops.com.co/posts/sync-vscode-extensions/</guid>
+      <description>It&amp;rsquo;s been a long time since my personal computer was reinstalled I just remember that it was 3 years ago when I was having problems with my LUKS configuration, sadly I was unable to solved it so I just reinstall all my operative system entirely. Now recently I just finish a clean Debian install, I was refreshing my Gnu/Linux Laptop and all the tools. the thing here is that I was looking to have the same visual studio code settings in my new install.</description>
+    </item>
     
     <item>
       <title>About Devops.com.co</title>
