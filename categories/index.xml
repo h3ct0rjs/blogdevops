@@ -14,7 +14,7 @@
     <item>
       <title>Coding</title>
       <link>https://devops.com.co/categories/coding/</link>
-      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://devops.com.co/categories/coding/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>Tools</title>
       <link>https://devops.com.co/categories/tools/</link>
-      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://devops.com.co/categories/tools/</guid>
       <description></description>
@@ -44,6 +44,15 @@
       <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://devops.com.co/categories/uncategorized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://devops.com.co/categories/windows/</link>
+      <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://devops.com.co/categories/windows/</guid>
       <description></description>
     </item>
     

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coding on DevOps</title>
-    <link>https://devops.com.co/tags/coding/</link>
-    <description>Recent content in Coding on DevOps</description>
+    <title>Windows on DevOps</title>
+    <link>https://devops.com.co/categories/windows/</link>
+    <description>Recent content in Windows on DevOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>made with ❤ from Colombia &amp;copy;  Devops.com.co 2019</copyright>
     <lastBuildDate>Sat, 13 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://devops.com.co/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devops.com.co/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <guid>https://devops.com.co/posts/install-package-manager-on-windows/</guid>
       <description>During a long time it&amp;rsquo;s been really dificult for me to work on Windows development enviroments, it was not a good sensation, but after giving a try during two months I&amp;rsquo;ve been able to work with, for my tremendous surprise there is a package manager out there, they&amp;rsquo;ve integrated a linux subsystem in the operative system and so many things more.
 If you don&amp;rsquo;t know what key advantages you get when you use a package manager I will simple describe it as control, with a package manager you will have to install software and it will automatically download the appropriate package from its configured main software repository, install it, and set it up, all without you having to click through wizards or hunt down .</description>
-    </item>
-    
-    <item>
-      <title>Sync Vscode Extensions</title>
-      <link>https://devops.com.co/posts/sync-vscode-extensions/</link>
-      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://devops.com.co/posts/sync-vscode-extensions/</guid>
-      <description>It&amp;rsquo;s been a long time since my personal computer was reinstalled I just remember that it was 3 years ago when I was having problems with my LUKS configuration, sadly I was unable to solved it so I just reinstall all my operative system entirely. Now recently I just finish a clean Debian install, I was refreshing my Gnu/Linux Laptop and all the tools. the thing here is that I was looking to have the same visual studio code settings in my new install.</description>
     </item>
     
   </channel>

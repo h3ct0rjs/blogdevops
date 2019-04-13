@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Sync Vscode Extensions</title>
-  <meta property="og:title" content="Sync Vscode Extensions" />
-  <meta name="twitter:title" content="Sync Vscode Extensions" />
+  <title>Install a Package Manager on Windows Dev Enviroment</title>
+  <meta property="og:title" content="Install a Package Manager on Windows Dev Enviroment" />
+  <meta name="twitter:title" content="Install a Package Manager on Windows Dev Enviroment" />
   
 
   
@@ -17,7 +17,7 @@
 
   <meta name="author" content=""/>
   <meta property="og:site_name" content="DevOps" />
-  <meta property="og:url" content="https://devops.com.co/posts/sync-vscode-extensions/" />
+  <meta property="og:url" content="https://devops.com.co/posts/install-package-manager-on-windows/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -89,12 +89,12 @@
 
 <article class="p-article">
   <header>
-    <h1>Sync Vscode Extensions</h1>
+    <h1>Install a Package Manager on Windows Dev Enviroment</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2019-03-30T00:00:00Z">
-          Mar 30, 2019
+        <time datetime="2019-04-13T00:00:00Z">
+          Apr 13, 2019
         </time>
       </div>
       
@@ -102,44 +102,68 @@
       
       <a href="https://devops.com.co/tags/tools" class="c-tag">tools</a>
       
+      <a href="https://devops.com.co/tags/windows" class="c-tag">Windows</a>
+      
     </div>
   </header>
   
   <section id="js-article" class="p-article__body">
-    <p>It&rsquo;s been a long time since my personal computer was reinstalled I just remember that it was 3 years ago when I was having problems with my LUKS configuration, sadly I was unable to solved it so I just reinstall all my operative system entirely. Now recently I just finish a clean Debian install, I was refreshing my Gnu/Linux Laptop and all the tools. the thing here is that I was looking to have the same visual studio code settings in my new install. Fortunately there is a way to be able to sync my VS Code user settings, extensions and more to the cloud using github so I can easily share them between multiple installations in a near future. It is a vscode extension called <strong><em>Settings Sync</em></strong>, some key features acording to the site are :</p>
+    
+
+<p>During a long time it&rsquo;s been really dificult for me to work on Windows development enviroments, it was not a good sensation,
+but after giving a try during two months I&rsquo;ve been able to work with, for my tremendous surprise there is a package manager out there, they&rsquo;ve integrated a linux subsystem in the operative system and so many things more.</p>
+
+<p>If you don&rsquo;t know what key advantages you get when you use a package manager I will simple describe it as <strong><em>control</em></strong>, with a package manager you will have to install software and it will automatically download the appropriate package from its configured main software repository, install it, and set it up, all without you having to click through wizards or hunt down <em>.exe</em> files on websites that you don&rsquo;t trust. When an update is released, your package manager notices and downloads the appropriate update.<strong>Chocolatey</strong> is a windows package manager or as it&rsquo;s own definition</p>
+
+<blockquote>
+<p>Chocolatey is software management automation.
+Chocolatey works with over 20+ installer technologies for Windows, but it can manage things you would normally xcopy deploy (like runtime binaries and zip files). You can also work with registry settings or managing files and configurations, or any combination. Since it uses PowerShell, if you can dream it, you can do it with Chocolatey. You&rsquo;re going to do similar things like apt or yum.</p>
 
 <ul>
-<li>Use your GitHub account token and Gist.</li>
-<li>Easy to Upload and Download on one click.</li>
-<li>Show a summary page at the end with details about config and extensions effected.</li>
-<li>Auto download Latest Settings on Startup.</li>
-<li>Auto upload Settings on file change.</li>
-<li>Share the Gist with other users and let them download your settings.</li>
-<li>Supports GitHub Enterprise</li>
-<li>Support pragmas with @sync keywords: host, os and env are supported.</li>
+<li>Good CLI that is simple to use.</li>
+<li>Main repository that takes packages contributions from the community (and is being maintained, and checked with security scans).</li>
+<li>Ability to use additional/multiple sources.</li>
+<li>Meta packages that can chain dependencies.</li>
+<li>Virtual packages.</li>
+<li>Packages should be easy to create / maintain.</li>
+<li>Packages should be concise and be able to be created without worrying about distribution rights.</li>
+<li>Unattended installs</li>
+<li>Installation of multiple packages with one command.</li>
 </ul>
+</blockquote>
 
-<p>You&rsquo;re going to be able to sync all the extensions and complete User Folder that Contains :</p>
+<p>So Chocolatey does the hard work, I&rsquo;ve tested and is amazing to manage binaries and packages, the installation is pretty simple<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>
+running a simple script in your powershell terminal :
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Set-ExecutionPolicy Bypass -Scope <span style="color:#66d9ef">Process</span> -Force; iex ((New-Object System.Net.WebClient).DownloadString(<span style="color:#e6db74">&#39;https://chocolatey.org/install.ps1&#39;</span>))</code></pre></div></p>
+
+<p>This may not seem very powerful at first, but imagine when you want to upgrade all of the software on your system to the latest, most secure versions, how do you do that now on windows ? Right. Manually, why not execut</p>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">choco upgrade packagename</code></pre></div>
+If we&rsquo;re going to install chocolatey you can do something like :</p>
+
+<img src="/images/blogchoco.png" alt="Install a Package Manager on Windows Dev Enviroment /images/blogchoco.png" data-action="zoom">
+
+
+<p>Is done.
+<img src="/images/blogchoco2.png" alt="Install a Package Manager on Windows Dev Enviroment /images/blogchoco2.png" data-action="zoom">
+</p>
+
+<h1 id="references">References</h1>
 
 <ul>
-<li>Settings File</li>
-<li>Keybinding File</li>
-<li>Launch File</li>
-<li>Snippets Folder</li>
-<li>VSCode Extensions &amp; Extensions Configurations</li>
-<li>Workspaces Folder</li>
+<li><p><a href="Official Website">https://github.com/h3ct0rjs/Windowsdev-enviroment</a></p></li>
+
+<li><p><a href="Recommended things for windows dev enviroments">https://chocolatey.org/</a></p></li>
 </ul>
+<div class="footnotes">
 
-<p>If you get stuck in setting it up you can check the video from youtube I&rsquo;d like to say
-Thanks to Baljeet Singh for showing the extension in detail.</p>
+<hr />
 
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/xiwipxPgBec" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+<ol>
+<li id="fn:1"><em>You will need to have Windows 7+/Windows 2003+ , Windows PowerShell v2+, .NET Framework 4.x+</em>
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
 </div>
-
-
-<p>Official explanation of <a href="http://shanalikhan.github.io/2015/12/15/Visual-Studio-Code-Sync-Settings.html">Settings Sync</a></p>
 
   </section>
   <footer>
@@ -148,17 +172,30 @@ Thanks to Baljeet Singh for showing the extension in detail.</p>
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://devops.com.co/posts/install-package-manager-on-windows/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://devops.com.co/about/">Older</a>
+          <a href="https://devops.com.co/posts/sync-vscode-extensions/">Older</a>
           
         </div>
       </div>
     </nav>
     
+
+<section class="p-related">
+  <h3>See Also</h3>
+  <ul id="slider" class="p-related__list">
+    
+    <li class="p-related__item js-related__item">
+      <a href="/posts/sync-vscode-extensions/"
+        >
+        <span>Sync Vscode Extensions</span>
+      </a>
+    </li>
+    
+  </ul>
+</section>
 
 
   </footer>
