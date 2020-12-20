@@ -25,10 +25,10 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: <username>/<username>.github.io
+          external_repository: h3ct0rjs/h3ct0rjs.github.io
           publish_dir: ./public
           #   keep_files: true
-          user_name: <username>
-          user_email: <username@email.com>
+          user_name: h3ct0rjs
+          user_email: h3ct0rjs@gmail.com
           publish_branch: master
           cname: devops.com.co
